@@ -42,7 +42,7 @@ try:
     streamlit.dataframe(back_from_function)
 except URLError as e:  #streamlit.write('The user entered ', fruit_choice)
   streamlit.error()
-streamlit.stop()
+#streamlit.stop()
 
 streamlit.header("The fruit load list contains:")
 #snowflake-related functions
